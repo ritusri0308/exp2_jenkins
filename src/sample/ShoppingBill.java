@@ -2,11 +2,11 @@ package sample;
 import java.util.Scanner;
 public class ShoppingBill {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(SYstem.in);
+		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter Product Price: ");
 		double price=sc.nextDouble();
 		System.out.println("Enter Quantity: ");
-		int qty=sc.nextIn();
+		int qty=sc.nextInt();
 		double total=price*qty;
 		double discount=total*0.10;
 		double finalAmount=total-discount;
